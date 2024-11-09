@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["ESNext", "DOM"],
+    "paths": {
+      "src/*": ["./src/*"]
+    },
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "**/__tests__/**"]
+}
